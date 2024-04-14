@@ -1,2 +1,2 @@
 # DAA
-Design and Analyst Algorithm
+Design and Analysis Algorithm
