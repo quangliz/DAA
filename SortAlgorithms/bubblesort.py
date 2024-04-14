@@ -8,7 +8,7 @@ def bubbleSort(array):
                 array[j], array[j + 1] = array[j + 1], array[j]
                 swap = True
         if swap == False: break
-        indexOfLastUnsortedElement -= 1
+        indexOfLastUnsortedElement -= 1 # reduce last unsorted elements
 arr = [random.randint(0, 100) for _ in range(20)]
 print(arr)
 bubbleSort(arr)
